@@ -55,7 +55,7 @@ movies.sort()
 for (movie of movies) {
     console.log(movie)
 }
-*/
+
 
 //STEP 8
 let movies = ['The Intouchables', 'The Last Samurai', 'Pulp Fiction', 'The Prestige', 'Gladiator', 'Minority Report', 'The Godfather']
@@ -73,8 +73,21 @@ for (movie of leastFavMovies) {
 
 
 //STEP 9
+let movies = ['The Intouchables', 'The Last Samurai', 'Pulp Fiction', 'The Prestige', 'Gladiator', 'Minority Report', 'The Godfather']
+let leastFavMovies = ['Bladerunner', 'I know what you did last summer', 'South Park']
+
+let allMovies = movies.concat(leastFavMovies)
+console.log (allMovies.sort().reverse())
+*/
 
 //STEP 10
+let movies = ['The Intouchables', 'The Last Samurai', 'Pulp Fiction', 'The Prestige', 'Gladiator', 'Minority Report', 'The Godfather']
+let leastFavMovies = ['Bladerunner', 'I know what you did last summer', 'South Park']
+
+let allMovies = movies.concat(leastFavMovies)
+allMovies.sort().reverse()
+console.log (allMovies[allMovies.length - 1])
+
 
 //STEP 11
 
